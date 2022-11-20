@@ -1,0 +1,83 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.social-buttons-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content-container {
+    width: 50%;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: "bree-serif";
+  font-size: 32px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    flex-direction: row;
+  }
+}
+
+.button {
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.like-button {
+  color: #ffffff;
+  background-color: #eab308;
+}
+
+.comment-button {
+  color: #323f4b;
+  background-color: #fff;
+}
+
+.share-button {
+  color: #fff;
+  background-color: #1d4ed8;
+}
